@@ -19,5 +19,5 @@ string=input("enter a string").upper()
 for i in string:
     for j in MORSE_CODE_DICT.keys():
         if j==i:
-            newstring=newstring+MORSE_CODE_DICT[j]
+            newstring=newstring+MORSE_CODE_DICT[j]+" "
 print(newstring)
